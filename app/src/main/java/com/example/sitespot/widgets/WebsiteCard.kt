@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -37,7 +38,7 @@ fun WebsiteCard(website: Website, modifier: Modifier = Modifier) {
         .fillMaxWidth()
         .clip(RoundedCornerShape(8.dp))
         .shadow(4.dp)
-        .background(color = Color(0xFFE3ECF1))
+        .background(MaterialTheme.colorScheme.surfaceContainerHigh)
         .clickable {
             val intent = Intent(Intent.ACTION_VIEW, website.url.toUri())
             context.startActivity(intent)
