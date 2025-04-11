@@ -13,3 +13,4 @@ I am proud of the fact that I was able to create a fully functional app in a tot
 ## What you would improve or add if you had more time.
 
 The UI could definitely be made to look more modern and polished, and a proper design system for that could be standardised, as currently I used quite arbitrary values for padding, margins and colors.
+Also, not being familiar with all the features provided by the APIs for Kotlin and Android Studio, I am sure there are better ways of accomplishing some of these tasks but I suppose that just comes with experience.
